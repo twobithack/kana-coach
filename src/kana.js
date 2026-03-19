@@ -216,7 +216,7 @@ export const romanizations =
   ピョ: { hepburn: 'pyo', kunrei: 'pyo',  nihon: 'pyo' }
 };
 
-export const gojoun = 
+export const gojuon = 
 {
   '':
   {

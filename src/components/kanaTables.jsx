@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { Button } from '@mui/material';
 import { ConfigContext } from './configProvider';
-import { gojoun, dakuten, yoon, romanizations } from '../kana';
+import { gojuon, dakuten, yoon, romanizations } from '../kana';
 
 function KanaDisplay({ data, type })
 {
@@ -70,7 +70,7 @@ export default function KanaTables({ type })
       </div>
       <KanaTable 
         headers={kanaHeaders}
-        data={gojoun}  
+        data={gojuon}  
         type={type} 
       />
       <KanaTable 

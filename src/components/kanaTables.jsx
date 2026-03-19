@@ -73,16 +73,18 @@ export default function KanaTables({ type })
         data={gojuon}  
         type={type} 
       />
-      <KanaTable 
-        headers={kanaHeaders}
-        data={dakuten}
-        type={type}
-      />
-      <KanaTable 
-        headers={kanaHeaders}
-        data={handakuten}
-        type={type}
-      />
+      <div className='diacriticsColumn'>
+        <KanaTable 
+          headers={kanaHeaders}
+          data={dakuten}
+          type={type}
+        />
+        <KanaTable 
+          headers={kanaHeaders}
+          data={handakuten}
+          type={type}
+        />
+      </div>
       <KanaTable 
         headers={yoonHeaders} 
         data={yoon}

@@ -64,16 +64,16 @@ export default function KanaTables({ type })
 
   return (
     <div className='kanaTables'>
-      <div className='label'>
-        <h1>{type}</h1>
-        <h3>{type === 'hiragana' ? 'ひらがな' : 'カタカナ'}</h3>
-      </div>
       <KanaTable 
         headers={kanaHeaders}
         data={gojuon}  
         type={type} 
       />
       <div className='diacritics'>
+        <div className='label'>
+          <h1>{type}</h1>
+          <h3>{type === 'hiragana' ? 'ひらがな' : 'カタカナ'}</h3>
+        </div>
         <KanaTable 
           headers={kanaHeaders}
           data={dakuten}

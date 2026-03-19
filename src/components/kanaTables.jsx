@@ -13,7 +13,7 @@ function KanaDisplay({ data, type })
 
   const playPronunciation = () => 
   { 
-    const pronunciation = new Audio(`/audio/${config.voice}/${label}.mp3`);
+    const pronunciation = new Audio(`audio/${config.voice}/${label}.mp3`);
     pronunciation.play();
   };
 

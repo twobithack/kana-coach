@@ -73,7 +73,7 @@ export default function KanaTables({ type })
         data={gojuon}  
         type={type} 
       />
-      <div className='diacriticsColumn'>
+      <div className='diacritics'>
         <KanaTable 
           headers={kanaHeaders}
           data={dakuten}

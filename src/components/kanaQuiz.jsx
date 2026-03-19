@@ -34,7 +34,7 @@ function Quiz({ questions })
   const inputRef = useRef();
 
   const romaji = romanizations[kana];
-  const pronunciation = new Audio(`/audio/${config.voice}/${romaji.nihon}.mp3`);
+  const pronunciation = new Audio(`audio/${config.voice}/${romaji.nihon}.mp3`);
 
   useEffect(() => 
   {

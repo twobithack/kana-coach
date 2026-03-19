@@ -199,21 +199,21 @@ export const romanizations =
   リャ: { hepburn: 'rya', kunrei: 'rya',  nihon: 'rya' },
   リュ: { hepburn: 'ryu', kunrei: 'ryu',  nihon: 'ryu' },
   リョ: { hepburn: 'ryo', kunrei: 'ryo',  nihon: 'ryo' },
-  ギゃ: { hepburn: 'gya', kunrei: 'gya',  nihon: 'gya' },
-  ギゅ: { hepburn: 'gyu', kunrei: 'gyu',  nihon: 'gyu' },
-  ギょ: { hepburn: 'gyo', kunrei: 'gyo',  nihon: 'gyo' },
-  ジゃ: { hepburn: 'ja',  kunrei: 'zya',  nihon: 'zya' },
-  ジゅ: { hepburn: 'ju',  kunrei: 'zyu',  nihon: 'zyu' },
-  ジょ: { hepburn: 'jo',  kunrei: 'zyo',  nihon: 'zyo' },
-  ヂゃ: { hepburn: 'ja',  kunrei: 'zya',  nihon: 'dya' },
-  ヂゅ: { hepburn: 'ju',  kunrei: 'zyu',  nihon: 'dyu' },
-  ヂょ: { hepburn: 'jo',  kunrei: 'zyo',  nihon: 'dyo' },
-  ビゃ: { hepburn: 'bya', kunrei: 'bya',  nihon: 'bya' },
-  ビゅ: { hepburn: 'byu', kunrei: 'byu',  nihon: 'byu' },
-  ビょ: { hepburn: 'byo', kunrei: 'byo',  nihon: 'byo' },
-  ピゃ: { hepburn: 'pya', kunrei: 'pya',  nihon: 'pya' },
-  ピゅ: { hepburn: 'pyu', kunrei: 'pyu',  nihon: 'pyu' },
-  ピょ: { hepburn: 'pyo', kunrei: 'pyo',  nihon: 'pyo' }
+  ギャ: { hepburn: 'gya', kunrei: 'gya',  nihon: 'gya' },
+  ギュ: { hepburn: 'gyu', kunrei: 'gyu',  nihon: 'gyu' },
+  ギョ: { hepburn: 'gyo', kunrei: 'gyo',  nihon: 'gyo' },
+  ジャ: { hepburn: 'ja',  kunrei: 'zya',  nihon: 'zya' },
+  ジュ: { hepburn: 'ju',  kunrei: 'zyu',  nihon: 'zyu' },
+  ジョ: { hepburn: 'jo',  kunrei: 'zyo',  nihon: 'zyo' },
+  ヂャ: { hepburn: 'ja',  kunrei: 'zya',  nihon: 'dya' },
+  ヂュ: { hepburn: 'ju',  kunrei: 'zyu',  nihon: 'dyu' },
+  ヂョ: { hepburn: 'jo',  kunrei: 'zyo',  nihon: 'dyo' },
+  ビャ: { hepburn: 'bya', kunrei: 'bya',  nihon: 'bya' },
+  ビュ: { hepburn: 'byu', kunrei: 'byu',  nihon: 'byu' },
+  ビョ: { hepburn: 'byo', kunrei: 'byo',  nihon: 'byo' },
+  ピャ: { hepburn: 'pya', kunrei: 'pya',  nihon: 'pya' },
+  ピュ: { hepburn: 'pyu', kunrei: 'pyu',  nihon: 'pyu' },
+  ピョ: { hepburn: 'pyo', kunrei: 'pyo',  nihon: 'pyo' }
 };
 
 export const gojoun = 
@@ -356,13 +356,13 @@ export const yoon =
     kyu: { hiragana: 'きゅ',  katakana: 'キュ' },
     kyo: { hiragana: 'きょ',  katakana: 'キョ' }
   },
-  'sh-':
+  'sy-':
   {
     sya: { hiragana: 'しゃ',  katakana: 'シャ' },
     syu: { hiragana: 'しゅ',  katakana: 'シュ' },
     syo: { hiragana: 'しょ',  katakana: 'ショ' }
   },
-  'ch-':
+  'ty-':
   {
     tya: { hiragana: 'ちゃ',  katakana: 'チャ' },
     tyu: { hiragana: 'ちゅ',  katakana: 'チュ' },
@@ -394,26 +394,32 @@ export const yoon =
   },
   'gy-':
   {
-    gya: { hiragana: 'ぎゃ',  katakana: 'ギゃ' },
-    gyu: { hiragana: 'ぎゅ',  katakana: 'ギゅ' },
-    gyo: { hiragana: 'ぎょ',  katakana: 'ギょ' }
+    gya: { hiragana: 'ぎゃ',  katakana: 'ギャ' },
+    gyu: { hiragana: 'ぎゅ',  katakana: 'ギュ' },
+    gyo: { hiragana: 'ぎょ',  katakana: 'ギョ' }
   },
-  'j-':
+  'zy-':
   {
-    zya: { hiragana: 'じゃ',  katakana: 'ジゃ' },
-    zyu: { hiragana: 'じゅ',  katakana: 'ジゅ' },
-    zyo: { hiragana: 'じょ',  katakana: 'ジょ' }
+    zya: { hiragana: 'じゃ',  katakana: 'ジャ' },
+    zyu: { hiragana: 'じゅ',  katakana: 'ジュ' },
+    zyo: { hiragana: 'じょ',  katakana: 'ジョ' }
+  },
+  'dy-':
+  {
+    dya: { hiragana: 'ぢゃ',  katakana: 'ヂャ' },
+    dyu: { hiragana: 'ぢゅ',  katakana: 'ヂュ' },
+    dyo: { hiragana: 'ぢょ',  katakana: 'ヂョ' }
   },
   'by-':
   {
-    bya: { hiragana: 'びゃ',  katakana: 'ビゃ' },
-    byu: { hiragana: 'びゅ',  katakana: 'ビゅ' },
-    byo: { hiragana: 'びょ',  katakana: 'ビょ' }
+    bya: { hiragana: 'びゃ',  katakana: 'ビャ' },
+    byu: { hiragana: 'びゅ',  katakana: 'ビュ' },
+    byo: { hiragana: 'びょ',  katakana: 'ビョ' }
   },
   'py-':
   {
-    pya: { hiragana: 'ぴゃ',  katakana: 'ピゃ' },
-    pyu: { hiragana: 'ぴゅ',  katakana: 'ピゅ' },
-    pyo: { hiragana: 'ぴょ',  katakana: 'ピょ' }
+    pya: { hiragana: 'ぴゃ',  katakana: 'ピャ' },
+    pyu: { hiragana: 'ぴゅ',  katakana: 'ピュ' },
+    pyo: { hiragana: 'ぴょ',  katakana: 'ピョ' }
   }
 };

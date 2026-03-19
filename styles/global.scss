@@ -118,6 +118,12 @@ body {
     font-style: italic;
   }
 
+  .diacritics-column {
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
   .MuiButton-contained {
     background-color: #181818;
     color: white;

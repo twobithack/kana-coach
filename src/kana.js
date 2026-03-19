@@ -337,7 +337,11 @@ export const dakuten =
     bu: { hiragana: 'ぶ', katakana: 'ブ' },
     be: { hiragana: 'べ', katakana: 'ベ' },
     bo: { hiragana: 'ぼ', katakana: 'ボ' }
-  },
+  }
+};
+
+export const handakuten = 
+{
   'p-':
   {
     pa: { hiragana: 'ぱ', katakana: 'パ' },
